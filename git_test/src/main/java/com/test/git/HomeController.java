@@ -36,6 +36,7 @@ public class HomeController {
 		System.out.println("아배고파 아졸료 돼지게따");
 		System.out.println("언제 밥먹냐 힘들다ㅠ");
 		System.out.println("여기는 핫픽스 난 응아마렵고 배고프고 돼질거같다");
+		System.out.println("아니다 난 기운차다 화이팅!!!! 이따다끼 마스!!!");
 		
 		return "home";
 	}
