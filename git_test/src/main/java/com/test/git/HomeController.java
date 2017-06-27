@@ -38,6 +38,7 @@ public class HomeController {
 		System.out.println("여기는 핫픽스 난 응아마렵고 배고프고 돼질거같다");
 		System.out.println("아니다 난 기운차다 화이팅!!!! 이따다끼 마스!!!");
 		System.out.println("여긴 깃테스트 마스터 브랜치다. 난 수정한다 커밋할거다");
+		System.out.println("얼른점심식난이왔으멵ㅎ겠따");
 		
 		return "home";
 	}
