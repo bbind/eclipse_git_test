@@ -28,13 +28,13 @@ public class HomeController {
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
+				
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
 		
 		System.out.println("아배고파 아졸료 돼지게따");
-		
+		System.out.println("여기는 핫픽스 난 응아마렵고 배고프고 돼질거같다");
 		
 		return "home";
 	}
